@@ -29,7 +29,6 @@
     <p>
         <?php
     
-        $paragrafo = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magni fugit consequuntur, ipsam iste quasi qui nobis, error, provident sapiente animi non tenetur facilis inventore possimus minus eos. Explicabo nihil deserunt natus eius ut itaque alias at maxime corporis assumenda ab repellat accusantium, suscipit, odio minima tempore? Praesentium, odio consequuntur.';
         $bedWord= $_GET['badword'];
         $censured = str_replace($bedWord,'***',$paragrafo);
         echo $censured;
